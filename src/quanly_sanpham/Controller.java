@@ -47,8 +47,8 @@ public class Controller implements QuanLyProduct{
         int id = Integer.parseInt(scanner.nextLine());
 
         for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getId() == id){
-                products.remove(products.get(i));
+            if (products.get(i).id == id){
+                products.remove(i);
                 return;
             }
         }

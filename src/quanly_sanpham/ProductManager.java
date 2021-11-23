@@ -1,6 +1,5 @@
 package quanly_sanpham;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ProductManager {
